@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">shengqi</string>
+    <string name="text_back">返回</string>
+    <string name="text_forward">模式控制</string>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="patternSelection">
+        <item >手动控制</item>
+        <item >参数控制</item>
+        <item >时间控制</item>
+    </string-array>
+
+</resources>

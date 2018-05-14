@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/error_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <include layout="@layout/activity_nodata"></include>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/load_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <include layout="@layout/activity_loadanimation"></include>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textdata"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="数据页面"
+            android:textSize="50dp"
+            android:gravity="center"
+            />
+    </FrameLayout>
+</LinearLayout>
